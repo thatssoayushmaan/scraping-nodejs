@@ -1,0 +1,21 @@
+{
+  "name": "scrapping-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "nodemon scrape.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.6",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "nightmare": "^3.0.2",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "response": "^0.18.0"
+  }
+}
